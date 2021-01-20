@@ -7,6 +7,10 @@
   + 추가(insert)
   + 제거(delete)
   + 검색(search)
++ [2021-01-20](https://github.com/LAH1203/My_Algorithm/blob/main/linkedList.md)
+  + 연결 리스트(Linked list)
+    + 단일 연결 리스트(Singly linked list)
+    + 이중 연결 리스트(Doubly linked list)
 
 ## 알고리즘(Algorithm)
 
