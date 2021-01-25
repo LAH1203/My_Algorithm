@@ -11,6 +11,10 @@
   + 연결 리스트(Linked list)
     + 단일 연결 리스트(Singly linked list)
     + 이중 연결 리스트(Doubly linked list)
++ [2021-01-25](https://github.com/LAH1203/My_Algorithm/blob/main/stack.md)
+  + 스택(Stack)
+    + 스택의 개념
+    + 스택의 연산
 
 ## 알고리즘(Algorithm)
 
