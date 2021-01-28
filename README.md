@@ -15,6 +15,13 @@
   + 스택(Stack)
     + 스택의 개념
     + 스택의 연산
++ [2021-01-28](https://github.com/LAH1203/My_Algorithm/blob/main/queue.md)
+  + 큐(Queue)
+    + 큐의 개념
+    + 큐의 연산
+  + 원형 큐(Circular Queue)
+  + DEQ(Doubly-Ended Queue)
+  + 우선 순위 큐(Priority Queue)
 
 ## 알고리즘(Algorithm)
 
