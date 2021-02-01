@@ -1,4 +1,4 @@
-# My_Algorithm
+# My Algorithm
 
 ## 자료구조(Data Structure)
 + [2021-01-18](https://github.com/LAH1203/My_Algorithm/blob/main/list%2C%20array%2C%20insert%2C%20delete%2C%20search.md)
@@ -31,6 +31,22 @@
     + Red-black tree
     + 2-3 tree
     + B+ tree
++ [2021-02-01](https://github.com/LAH1203/My_Algorithm/blob/main/tree%26binary%20tree.md)
+  + 트리(Tree)
+    + 트리의 정의 및 개념
+    + 트리의 용어
+    + 트리의 자료구조 및 구조
+  + 이진 트리(Binary tree)
+    + 이진 트리의 정의
+    + 이진 트리의 성질
+    + 특별한 이진 트리
+      + 포화 이진 트리
+      + 완전 이진 트리
+  + 트리 탐색(Tree search)
+    + 탐색이란?
+    + 중위 우선 탐색(Inorder traversal)
+    + 전위 우선 탐색(Preorder traversal)
+    + 후위 우선 탐색(Postorder traversal)
 
 ## 알고리즘(Algorithm)
 
