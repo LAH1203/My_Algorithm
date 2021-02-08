@@ -47,6 +47,15 @@
     + 중위 우선 탐색(Inorder traversal)
     + 전위 우선 탐색(Preorder traversal)
     + 후위 우선 탐색(Postorder traversal)
++ [2021-02-08](https://github.com/LAH1203/My_Algorithm/blob/main/heap.md)
+  + 힙(Heap)
+    + 힙의 정의
+    + 힙의 구현
+    + 힙의 연산
+      + 추가(push)
+      + 제거(pop)
+  + 힙 정렬(Heap sort)
+
 
 ## 알고리즘(Algorithm)
 
