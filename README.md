@@ -55,7 +55,21 @@
       + 추가(push)
       + 제거(pop)
   + 힙 정렬(Heap sort)
-
++ [2021-02-15](https://github.com/LAH1203/My_Algorithm/blob/main/hash.md)
+  + 해시(Hash)
+    + 해시의 정의
+    + 해시 함수(Hash function)
+    + 해시의 연산
+      + 검색, 삽입 삭제 연산
+    + 충돌 및 충돌 해소
+      + 열린 어드레싱(open addressing)
+        + 선형 탐사(linear probing)
+        + 제곱 탐사(quadratic probing)
+        + 이중 해시(double hash)
+      + 닫힌 어드레싱(closed addressing)
+        + 버켓(bucket)
+        + 별도 체인(separate chain)
+    
 
 ## 알고리즘(Algorithm)
 
