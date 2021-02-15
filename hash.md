@@ -11,7 +11,12 @@
 >> 4) [삭제 연산](#삭제-연산)
 > 4. [충돌 및 충돌 해소](#충돌-및-충돌-해소)
 >> 1) [열린 어드레싱(open addressing)](#열린-어드레싱open-addressing)
+>>> 1. [선형 탐사(linear probing)](#선형-탐사linear-probing)
+>>> 2. [제곱 탐사(quadratic probing)](#제곱-탐사quadratic-probing)
+>>> 3. [이중 해시(double hash)](#이중-해시double-hash)
 >> 2) [닫힌 어드레싱(closed addressing)](#닫힌-어드레싱closed-addressing)
+>>> 1. [버켓(bucket)](#버켓bucket)
+>>> 2. [별도 체인(separate chain)](#별도-체인separate-chain)
 > 5. [성능 비교](#성능-비교)
 
 ---
