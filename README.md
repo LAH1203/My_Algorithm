@@ -60,7 +60,7 @@
     + 해시의 정의
     + 해시 함수(Hash function)
     + 해시의 연산
-      + 검색, 삽입 삭제 연산
+      + 검색, 삽입, 삭제 연산
     + 충돌 및 충돌 해소
       + 열린 어드레싱(open addressing)
         + 선형 탐사(linear probing)
