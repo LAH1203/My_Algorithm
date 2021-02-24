@@ -69,7 +69,10 @@
       + 닫힌 어드레싱(closed addressing)
         + 버켓(bucket)
         + 별도 체인(separate chain)
-    
++ [2021-02-24~25](https://github.com/LAH1203/My_Algorithm/blob/main/graph.md)
+  + 그래프의 기본 개념
+  + 그래프의 기본 용어
+  + 그래프의 기본 연산
 
 ## 알고리즘(Algorithm)
 
