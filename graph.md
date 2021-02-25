@@ -6,6 +6,9 @@
 >> 4) [그래프의 종류](#그래프의-종류)
 > 2. [그래프의 기본 용어](#그래프의-기본-용어)
 > 3. [그래프의 기본 연산](#그래프의-기본-연산)
+>> 1) [그래프의 구현](#그래프의-구현)
+>> 2) [그래프의 구현 예시](#그래프의-구현-예시)
+>> 3) [그래프의 연산](#그래프의-연산)
 
 # 그래프의 기본 개념
 ## 그래프의 소개
@@ -195,5 +198,88 @@
 
 ![신장트리](https://user-images.githubusercontent.com/57928612/108982096-c2e51400-76d0-11eb-9912-82f8d8168f4b.png)
 
-# 그래프의 구현
+# 그래프의 기본 연산
+## 그래프의 구현
+### Edge list
+- 그래프의 edge의 리스트를 제시함
+- vertex는 0부터 n-1 또는 1부터 n으로 설정
+- 많은 코딩 테스트 문제에서 제시되는 형태
 
+![edge list](https://user-images.githubusercontent.com/57928612/109102403-27a17c80-776c-11eb-8462-c9cd01d29f63.png)
+
+### 인접 행렬(Adjacency matrix)
+- n X n array
+  - n : vertex의 수
+- a[i][j] = 1, if { v<sub>i</sub>, v<sub>j</sub> } ∈ E
+- a[i][j] = 0, if { v<sub>i</sub>, v<sub>j</sub> } ∉ E
+#### symmetric
+![symmetric adjacency matrix](https://user-images.githubusercontent.com/57928612/109102711-c8903780-776c-11eb-8049-b7cf2f8adc12.png)
+#### not symmetric
+![not symmetric adjacency matrix](https://user-images.githubusercontent.com/57928612/109102802-f9706c80-776c-11eb-90b4-b21e82966491.png)
+
+### 인접 리스트(Adjacency list)
+- n개의 연결 리스트
+  - adjLists[n]
+- adjLists[i]는 vertex i로부터 시작하는 edge에 연결된 vertex를 연결하는 연결 리스트의 시작
+
+![인접리스트-1](https://user-images.githubusercontent.com/57928612/109102929-3b99ae00-776d-11eb-8d0f-8437bf685d46.png)
+
+![인접리스트-2](https://user-images.githubusercontent.com/57928612/109102959-481e0680-776d-11eb-8a47-a0d4bc2d78e4.png)
+
+## 그래프의 구현 예시
+### STL을 이용한 그래프의 구현(using 인접 리스트)
+```
+// undirected graph
+// Number of vertices : 4 (1~4)
+// Number of edges : 5
+Input:
+1 2
+1 3
+1 4
+2 4
+3 4
+```
+
+![stl을 이용한 그래프의 구현(인접 리스트)](https://user-images.githubusercontent.com/57928612/109103172-ba8ee680-776d-11eb-8cff-be874228aec9.png)
+
+```cpp
+nptr edge[10001];
+void main() {
+  scanf("%d %d", &n, %m);
+  for (i = 0; i < m; i++) {
+    scanf("%d %d", &u, &v);
+    edge[u].add(v);
+    edge[v].add(u);
+  }
+  for(i = 1; i <= n; i++)
+    edge[i].sort();
+}
+```
+
+### 성능 비교
+- (ex) 모든 vertex에서 인접한 vertex들을 출력하라.
+
+  || 인접 행렬 | 인접 리스트 |
+  |---|---|---|
+  | 완전 또는 밀집 그래프 | O(n<sup>2</sup>) | O(n<sup>2</sup>) |
+  | 희소 그래프 | O(n<sup>2</sup>) | O(n) |
+
+## 그래프의 연산
+### 연산의 분류
+![연산의 분류](https://user-images.githubusercontent.com/57928612/109103587-82d46e80-776e-11eb-89d6-0264ffc8cd07.png)
+
+#### 밑의 것들은 알고리즘 파트에서 더 자세히 다룰 것이다.
+### DFS(depth first search)
+![DFS](https://user-images.githubusercontent.com/57928612/109104206-eced1380-776e-11eb-87e5-65d1bf9d63f4.png)
+### BFS(breadth first search)
+![BFS](https://user-images.githubusercontent.com/57928612/109104249-fd9d8980-776e-11eb-9284-6a8189b0cd65.png)
+### 연결 성분(connected component)
+![연결 성분](https://user-images.githubusercontent.com/57928612/109104288-0e4dff80-776f-11eb-94a8-6ea84e7fc5b9.png)
+### 신장 트리(spanning tree)
+![신장 트리](https://user-images.githubusercontent.com/57928612/109104324-20c83900-776f-11eb-869c-aab4f578842e.png)
+### 이중 연결 성분(biconnected component)
+![이중 연결 성분](https://user-images.githubusercontent.com/57928612/109104388-3b021700-776f-11eb-855a-6d53b3eddd73.png)
+### 강한 연결 성분(strongly connected component)
+![강한 연결 성분](https://user-images.githubusercontent.com/57928612/109104435-4d7c5080-776f-11eb-9982-59fbb80df52e.png)
+### 최단 거리(shrotest path)
+![최단 거리](https://user-images.githubusercontent.com/57928612/109104482-62f17a80-776f-11eb-867f-82696a5a8acb.png)
