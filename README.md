@@ -77,3 +77,9 @@
 ## 알고리즘(Algorithm)
 
 ## 문제풀이
+[알고리즘 문제 및 코드 notion 정리](https://www.notion.so/1-b28df6eeb1454228bb9b621c2caedc28)
+<br>
+
+| 분야 | 날짜 | 문제 |
+|:---:|:---:|---|
+| **무식하게 풀기**<br>*브루트포스, 완전 탐색* | 2021.03.29 ~ 2021.04.01 | [치킨 배달(백준 15686)](https://www.acmicpc.net/problem/15686)<br>[소수 찾기(프로그래머스)](https://programmers.co.kr/learn/courses/30/lessons/42839)<br>[연산자 끼워넣기(백준 14888)](https://www.acmicpc.net/problem/14888)<br>[카펫(프로그래머스)](https://programmers.co.kr/learn/courses/30/lessons/42842) |
