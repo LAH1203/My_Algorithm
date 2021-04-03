@@ -83,3 +83,5 @@
 | 분야 | 날짜 | 문제 |
 |:---:|:---:|---|
 | **무식하게 풀기**<br>*브루트포스, 완전 탐색* | 2021.03.29 ~ 2021.04.01 | [치킨 배달(백준 15686)](https://www.acmicpc.net/problem/15686)<br>[소수 찾기(프로그래머스)](https://programmers.co.kr/learn/courses/30/lessons/42839)<br>[연산자 끼워넣기(백준 14888)](https://www.acmicpc.net/problem/14888)<br>[카펫(프로그래머스)](https://programmers.co.kr/learn/courses/30/lessons/42842) |
+| **분할 정복**<br>*분할 정복, 이분(이진) 탐색 등* | 2021.04.02 ~ 2021.04.08 | [입국심사(프로그래머스)](https://programmers.co.kr/learn/courses/30/lessons/43238)<br>[트리(백준 4256)](https://www.acmicpc.net/problem/4256)<br>[가장 긴 증가하는 부분 수열 3(백준 12738)](https://www.acmicpc.net/problem/12738)<br>[Z(백준 1074)](https://www.acmicpc.net/problem/1074)<br>[박스 채우기(백준 1493)](https://www.acmicpc.net/problem/1493)<br>[행렬 제곱(백준 10830)](https://www.acmicpc.net/problem/10830) |
+
